@@ -10,29 +10,30 @@
     margin: 0;
     padding: 0;
   }
+
+
   /*style the header */
   header {
     padding: 20px 35px;
     background-color: var(--tertiary-color);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     position: sticky;
     position: -webkit-sticky;
     top: 0;    
     z-index: 9999;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: space-around;
+    
+  } 
 
-  }
   
   header h1 {
       font-weight: bold;
       margin: 0;
       font-size: 38px;
       color: var(--primary-color);
-      
-      
+           
      
   }
 
@@ -43,10 +44,7 @@
 
   }
 
-  header p {
-
-  }
-
+ 
   header a {
     text-decoration: none;
     color: var(--primary-color);
