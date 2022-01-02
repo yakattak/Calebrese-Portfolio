@@ -10,6 +10,11 @@
     margin: 0;
     padding: 0;
   }
+  
+
+section {
+  scroll-margin-top: 15rem;
+}
 
 
   /*style the header */
@@ -94,15 +99,21 @@
     width: 50%;
   }
 
-  .intro p {
-    line-height: 1.7;
-    color: var(--primary-color);
+  .intro {
+    margin: 50px auto;
+    padding-bottom: 50px;
     width: 80%;
-    margin: 0 auto;
-    font-size: 20px;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
   }
-
+  .intro p {
+    flex:2 60%;
+    margin: 10px;
+  }
+  
   /*start full stack adventure styling */
   .program-projects {
       width: 100%;
