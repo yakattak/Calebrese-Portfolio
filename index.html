@@ -12,7 +12,7 @@
     <body>
         <!-- Header with navigation, include seperate page with resume-->
         <header>
-            <img src="./assets/images/profile.png" alt ="picture of steve/">
+            
             
             
             <div>
@@ -30,6 +30,7 @@
             <a href="mailto: stevecalebrese@gmail.com">Send me an email!  (steve.calebrese@gmail.com)</a>
                 
             </p>
+            
         </div>
             </div>
         </div>
@@ -64,15 +65,15 @@
         
         </header>
 
-        <!-- Hero-->
-        <div class="hero"></div>
+        
 
         <!-- Main Sections-->
 
         <main class = "content">
             <!--About me-->
             <section id ="About-Me" class = "intro">
-                <h2>About Me!</h2>
+                <h2 class = "section-title">About Me!</h2>
+                <img src="./assets/images/profile.png" alt ="picture of steve/">
                 <p>
                     Here i will place lots of text with about me information. Here i will place lots of text with about me information.Here i will place lots of text with about me information.Here i will place lots of text with about me information.
                     Here i will place lots of text with about me information.Here i will place lots of text with about me information.Here i will place lots of text with about me information.
@@ -86,12 +87,18 @@
             </section>
 
             <!--Full Stack Adventure-->
-            <section id = "Full-Stack-Adventure" class ="program-projects">
+            <section id = "Full-Stack-Adventure" >
+                <div class = "flex-row">
                 <h2 class = "section-title">Full Stack Adventure</h2>
-                <h3>As I navigate through my Full-Stack bootcamp you can follow along with my progress!</h3>
-
+                </div>
+               
+               
+                <div class ="program-projects">
                 <article class = "project">
                     <h4 class = "project-name">Run Buddy!</h4>
+                    <div class="project-sentence">
+                    <p> this is a sentence explaining what run buddy is</p>
+                    </div>
                 </article>
 
                 <article class ="project">
@@ -101,7 +108,9 @@
                 <article class ="project">
                     <h4 class = "project-name">Fan Page</h4>
                 </article>
+            </div>
 
+            <div class ="program-projects">
                 <article class ="project">
                     <h4 class = "project-name">Robot Gladiators</h4>
                 </article>
@@ -113,6 +122,7 @@
                 <article class ="project">
                     <h4 class = "project-name">Project Beta</h4>
                 </article>
+            </div>
             </section>
 
             <!-- My Other Irons-->
@@ -139,6 +149,5 @@
         
 
     </body>
-
-
+   
 </html>
