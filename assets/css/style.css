@@ -279,15 +279,16 @@ section {
  .section-title {
     width: 80%;
   }
-  
-  .trainer {
+
+  .project {
     flex: 0 70%;
   }
-  
-  .contact-info iframe{
+
+  iframe{
     flex: 1 100%;
   }
 }
+
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
@@ -295,61 +296,49 @@ section {
     padding: 30px 15px;
   }
 
-  .step h3 {
+  .project-name {
     flex: 1 100%;
     text-align: center;
+    font-size: 8vw;
   }
 
-  .step-info {
-    flex: 2 100%;
-    text-align: center;
+  .project {
+    flex: 2 100%;    
     justify-content: center;
+    height: 200px
   }
 
-  .step-img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  .other-projects p{
+    flex:2 100%;
+    font-size: 4vw;
+  }
+  .project-image {
+    height: 100%
+
   }
 
-  .step-text {
-    flex: 100%;  
-  }
-
-  .trainer-bio h3, .trainer-bio h4 {
-    display: block;
-  }
+  .other-projects iframe {
+    flex: 1 100%;
+    }
 }
-
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  .hero-form button {
-    width: 100%;
+
+
+
+
+  .project {
+    flex: 0 100%;
+    height: 100px;
+  }
+
+  .project-name {
+    size: 10vw;
   }
 
   .section-title {
     width: 95%;
-  }
-
-  .intro p {
-    width: 100%;
-  }
-
-  .trainer {
-    flex: 0 100%;
-  }
-
-  .contact-info {
-    text-align: center;
-  }
-
-  .contact-info > * {
-    flex: 0 100%;
-  }
-
-  .contact-form {
-    order: 3;
+    font-size: 10vw;
   }
 }
 
