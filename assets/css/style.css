@@ -228,6 +228,8 @@ section {
 
 .other-projects p {
   text-align: center;
+  color: var(--primary-color);
+  font-size: 25px;
 }
 
 
