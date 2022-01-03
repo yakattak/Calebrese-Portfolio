@@ -73,13 +73,13 @@ section {
     margin: 20px 0 0 0;
   }
   header nav ul li a {
-    padding: 10px 15px;
+    padding: 15px 15px;
     font-weight: lighter;
     font-size: 28px;
     text-shadow: 0 0 10px rgba(56, 11, 11, 0.5);
   }
 
-  header nav ul li a:hover {
+  header a:hover {
     background: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 15px;
@@ -133,10 +133,16 @@ section {
     margin: 20px;
     flex: 1;
     color: var(--primary-color);
-    height: 100%;
+    height: 400px;
     background-color: var(--secondary-color);
 
   }
+
+  .first
+  {
+    height: 500px;
+  }
+
   
   .project-name {
     padding: 10px;
@@ -144,10 +150,18 @@ section {
     font-size: 35px;
     
   }
+
+  .project-name:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
     
   .project-image {
-    height: 250px;
+    height: 300px;
     margin: 0;
+    align-items: center;
    
   }
 
@@ -165,7 +179,7 @@ section {
 
 /*HORISEON */
 .horiseon {
-  background-image:url("../images/digital-marketing-meeting.jpg");
+    background-image:url("../images/digital-marketing-meeting.jpg");
     background-size: 100%;
     background-position: 50%;
     color: white;
@@ -175,7 +189,7 @@ section {
 
 /*FAN PAGE */
 .fan-page {
-  background-image:url("../images/ltj.jfif");
+    background-image:url("../images/ltj.jfif");
     background-size: 100%;
     background-position: 100%;
     color: white;
@@ -194,7 +208,7 @@ section {
 
 
 .project-alpha {
-  background-image:url("../images/alpha.png") ;
+    background-image:url("../images/alpha.png") ;
     background-size: 80%;
     background-position: 80%;
     color: white;
@@ -202,7 +216,7 @@ section {
 
 
 .project-beta {
-  background-image:url("../images/beta.png") ;
+    background-image:url("../images/beta.png") ;
     background-size: 70%;
     background-position: 50%;
     color: white;
