@@ -1,6 +1,6 @@
 :root {
     --primary-color: #242320;
-    --secondary-color: #79cc69;
+    --secondary-color: #9ba3b8;
     --tertiary-color: #33ecff;
 
 }
@@ -107,14 +107,24 @@ section {
     padding-bottom: 50px;
     width: 80%;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    
+    align-items: top;
     justify-content: space-between;
+
+  
     
   }
+
+  .intro div{
+    margin: 10px;
+    align-items: left;
+  }
+  
   .intro p {
     flex:2 60%;
-    margin: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    
   }
   
   /*start full stack adventure styling */
@@ -165,12 +175,32 @@ section {
    
   }
 
+  /*shindig */
+
+  .shindig {
+    background-image: url("../images/shindig.PNG");
+    background-size: 100%;
+  }
+
+  /* weatherme */
+
+  .weatherme {
+    background-image: url("../images/weatherme.PNG");
+    background-size: 100%;
+  }
+
+  /*workday */
+
+  .workday {
+    background-image: url("../images/workdayscheduler.PNG");
+    background-size: 100%;
+  }
 
   /* RUNBUDDY */
   .runbuddy {
     background-image:url("../images/hero-bg.jpg");
-    background-size: 100%;
-    background-position: 80%;
+    background-size: 110%;
+    background-position: 100%;
     color: #ffffff;
     
   }
@@ -207,9 +237,9 @@ section {
 }
 
 
-.project-alpha {
+.password {
     background-image:url("../images/alpha.png") ;
-    background-size: 80%;
+    background-size: 100%;
     background-position: 80%;
     color: white;
 }
@@ -244,6 +274,18 @@ section {
   text-align: center;
   color: var(--primary-color);
   font-size: 25px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section a {
+  text-align: center;
+  font-size: 25px ;
+  padding-bottom: 10px;
 }
 
 
